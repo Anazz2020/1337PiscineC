@@ -6,7 +6,7 @@
 /*   By: anazz <lovewithacoco10@gmail.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/26 02:51:10 by anazz             #+#    #+#             */
-/*   Updated: 2022/04/26 03:01:23 by anazz            ###   ########.fr       */
+/*   Updated: 2022/04/26 03:02:58 by anazz            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_sort_int_tab(int *tab, int size)
 			temporary = tab[index];
 			tab[index] = tab[index + 1];
 			tab[index + 1] = temporary;
-			index = -1;
+			index--;
 		}
 		index++;
 	}
